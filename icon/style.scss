@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?47vvqi');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?47vvqi#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?47vvqi') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?47vvqi') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?47vvqi##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?7idgzj');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?7idgzj#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?7idgzj') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?7idgzj') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?7idgzj##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,6 +27,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-search {
+  &:before {
+    content: $icon-search; 
+  }
+}
 .icon-slack {
   &:before {
     content: $icon-slack; 
