@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?7idgzj');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?7idgzj#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?7idgzj') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?7idgzj') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?7idgzj##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?7875fr');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?7875fr#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?7875fr') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?7875fr') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?7875fr##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,6 +27,81 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-star1 {
+  &:before {
+    content: $icon-star1; 
+  }
+}
+.icon-search-alt {
+  &:before {
+    content: $icon-search-alt; 
+  }
+}
+.icon-phone1 {
+  &:before {
+    content: $icon-phone1; 
+  }
+}
+.icon-heart-filled {
+  &:before {
+    content: $icon-heart-filled; 
+  }
+}
+.icon-heart {
+  &:before {
+    content: $icon-heart; 
+  }
+}
+.icon-close {
+  &:before {
+    content: $icon-close; 
+  }
+}
+.icon-cart1 {
+  &:before {
+    content: $icon-cart1; 
+  }
+}
+.icon-phone {
+  &:before {
+    content: $icon-phone; 
+  }
+}
+.icon-keyboard_arrow_down {
+  &:before {
+    content: $icon-keyboard_arrow_down; 
+  }
+}
+.icon-keyboard_arrow_left {
+  &:before {
+    content: $icon-keyboard_arrow_left; 
+  }
+}
+.icon-keyboard_arrow_right {
+  &:before {
+    content: $icon-keyboard_arrow_right; 
+  }
+}
+.icon-keyboard_arrow_up {
+  &:before {
+    content: $icon-keyboard_arrow_up; 
+  }
+}
+.icon-cart {
+  &:before {
+    content: $icon-cart; 
+  }
+}
+.icon-arrow_back_ios {
+  &:before {
+    content: $icon-arrow_back_ios; 
+  }
+}
+.icon-arrow_forward_ios {
+  &:before {
+    content: $icon-arrow_forward_ios; 
+  }
+}
 .icon-search {
   &:before {
     content: $icon-search; 
