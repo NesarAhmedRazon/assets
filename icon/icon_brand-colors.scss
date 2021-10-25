@@ -18,19 +18,23 @@ bitbucket:#0052CC);
 
     @each $brand, $props in $brands {
         &-#{$brand} {
-
-
             @if 1 < length($props) {
                 background-color: nth($props, 1);
                 font-size: nth($props, 2);
             }
-
             @else {
                 background-color: $props;
                 color:white;
             }
             &.bg-off {
                 background-color: unset;
+            }
+            &.hov-brand{
+                background-color: unset;
+                &:hover{
+                    background-color: $props;
+                    color:white;
+                }
             }
         }
     }
