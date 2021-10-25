@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'itprix';
-  src:  url('fonts/itprix.eot?b8zljz');
-  src:  url('fonts/itprix.eot?b8zljz#iefix') format('embedded-opentype'),
-    url('fonts/itprix.ttf?b8zljz') format('truetype'),
-    url('fonts/itprix.woff?b8zljz') format('woff'),
-    url('fonts/itprix.svg?b8zljz#itprix') format('svg');
+  src:  url('fonts/itprix.eot?7k5ra0');
+  src:  url('fonts/itprix.eot?7k5ra0#iefix') format('embedded-opentype'),
+    url('fonts/itprix.ttf?7k5ra0') format('truetype'),
+    url('fonts/itprix.woff?7k5ra0') format('woff'),
+    url('fonts/itprix.svg?7k5ra0#itprix') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -63,6 +63,9 @@
 }
 .icon-keyboard_arrow_up:before {
   content: "\e920";
+}
+.icon-dehaze:before {
+  content: "\e92c";
 }
 .icon-cart:before {
   content: "\e921";
