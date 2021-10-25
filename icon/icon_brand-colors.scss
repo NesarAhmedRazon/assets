@@ -27,6 +27,7 @@ bitbucket:#0052CC);
 
             @else {
                 background-color: $props;
+                color:white;
             }
             &.bg-off {
                 background-color: unset;
