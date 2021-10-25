@@ -31,6 +31,8 @@ bitbucket:#0052CC);
             }
             &.hov-brand{
                 background-color: unset;
+                color:unset;
+
                 &:hover{
                     background-color: $props;
                     color:white;
